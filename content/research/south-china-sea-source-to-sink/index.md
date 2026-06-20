@@ -10,6 +10,8 @@ tags:
   - source-to-sink
   - provenance analysis
   - sedimentary basins
+sidebar:
+  hide: true
 ---
 
 ## Overview

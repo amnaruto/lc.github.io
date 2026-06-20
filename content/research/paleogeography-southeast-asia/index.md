@@ -10,6 +10,8 @@ tags:
   - Southeast Asia
   - South China Sea
   - Paleo-Pacific
+sidebar:
+  hide: true
 ---
 
 ## Overview

@@ -7,8 +7,12 @@ categories:
 tags:
   - fieldwork
   - marine geology
+sidebar:
+  hide: true
 cascade:
   type: docs
+  sidebar:
+    hide: true
 ---
 
 Field pages record field activities by time. Each entry can include date, place, participants, photographs, field objectives, methods, observations, and related research outputs.

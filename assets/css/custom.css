@@ -69,8 +69,90 @@
   padding: 1rem;
 }
 
+.hextra-sidebar-container {
+  display: none !important;
+}
+
+.team-roster {
+  display: grid;
+  gap: 1rem;
+}
+
+.team-person {
+  display: grid;
+  grid-template-columns: 6.5rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.team-portrait {
+  margin: 0;
+  width: 6.5rem;
+}
+
+.team-portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+}
+
+.team-portrait figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.team-info {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.team-info th,
+.team-info td {
+  padding: 0.55rem 0.7rem;
+  vertical-align: top;
+  border: 1px solid hsl(210 16% 88%);
+}
+
+.team-info th {
+  width: 9rem;
+  font-weight: 700;
+  text-align: left;
+  background: hsl(210 20% 97%);
+}
+
+.team-collaborators {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 6.5rem);
+  gap: 1rem;
+  align-items: start;
+}
+
+.team-empty {
+  color: hsl(210 9% 45%);
+}
+
 @media (max-width: 760px) {
   .home-hero {
     grid-template-columns: 1fr;
+  }
+
+  .team-person {
+    grid-template-columns: 1fr;
+  }
+
+  .team-portrait {
+    width: 6.5rem;
+  }
+
+  .team-info th {
+    width: 7.5rem;
   }
 }

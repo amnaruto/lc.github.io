@@ -3,11 +3,14 @@ title: Licheng Cao
 linkTitle: Licheng Cao
 weight: 1
 description: Associate professor in marine geology and sedimentary geochemistry.
+draft: true
 categories:
   - Team
 tags:
   - principal investigator
   - marine geology
+sidebar:
+  hide: true
 ---
 
 ![Licheng Cao](/images/licheng-cao.jpg)

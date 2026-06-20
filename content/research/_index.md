@@ -8,8 +8,12 @@ tags:
   - marine geology
   - provenance analysis
   - paleogeography
+sidebar:
+  hide: true
 cascade:
   type: docs
+  sidebar:
+    hide: true
 ---
 
 Research pages are organized as project records. Each project can include a short overview, research questions, explanatory figures, related publications, collaborators, funding information, and tags.

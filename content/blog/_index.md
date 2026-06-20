@@ -7,6 +7,8 @@ categories:
 tags:
   - education
   - research
+sidebar:
+  hide: true
 ---
 
 This section is for personal thoughts on education, research, academic work, and related topics.

@@ -9,6 +9,8 @@ categories:
 tags:
   - fieldwork
   - placeholder
+sidebar:
+  hide: true
 ---
 
 ## Time and Location
